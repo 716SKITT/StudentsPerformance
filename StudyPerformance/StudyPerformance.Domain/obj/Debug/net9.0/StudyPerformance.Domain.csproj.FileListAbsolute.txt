@@ -1,0 +1,13 @@
+C:\study\StudyPerformance\StudyPerformance.Domain\bin\Debug\net9.0\StudyPerformance.Domain.deps.json
+C:\study\StudyPerformance\StudyPerformance.Domain\bin\Debug\net9.0\StudyPerformance.Domain.dll
+C:\study\StudyPerformance\StudyPerformance.Domain\bin\Debug\net9.0\StudyPerformance.Domain.pdb
+C:\study\StudyPerformance\StudyPerformance.Domain\obj\Debug\net9.0\StudyPerformance.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\study\StudyPerformance\StudyPerformance.Domain\obj\Debug\net9.0\StudyPerformance.Domain.AssemblyInfoInputs.cache
+C:\study\StudyPerformance\StudyPerformance.Domain\obj\Debug\net9.0\StudyPerformance.Domain.AssemblyInfo.cs
+C:\study\StudyPerformance\StudyPerformance.Domain\obj\Debug\net9.0\StudyPerformance.Domain.csproj.CoreCompileInputs.cache
+C:\study\StudyPerformance\StudyPerformance.Domain\obj\Debug\net9.0\StudyPerformance.Domain.dll
+C:\study\StudyPerformance\StudyPerformance.Domain\obj\Debug\net9.0\refint\StudyPerformance.Domain.dll
+C:\study\StudyPerformance\StudyPerformance.Domain\obj\Debug\net9.0\StudyPerformance.Domain.pdb
+C:\study\StudyPerformance\StudyPerformance.Domain\obj\Debug\net9.0\ref\StudyPerformance.Domain.dll
+C:\study\StudyPerformance\StudyPerformance.Domain\bin\Debug\net9.0\StudyPerformance.Domain.runtimeconfig.json
+C:\study\StudyPerformance\StudyPerformance.Domain\obj\Debug\net9.0\StudyPerformance.Domain.genruntimeconfig.cache
