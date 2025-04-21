@@ -35,6 +35,17 @@ public class Student
         Gender = gender;
     }
 
+    public Student(Guid id, string firstName, string lastName, DateOnly enrollmentDate, DateOnly? dateOfBirth, string? gender)
+    {
+        Id = id;
+        FirstName = firstName;
+        LastName = lastName;
+        EnrollmentDate = enrollmentDate;
+        DateOfBirth = dateOfBirth;
+        Gender = gender;
+    }
+
+
     public void UpdateContact(string? email, string? phone)
     {
         Email = email;
