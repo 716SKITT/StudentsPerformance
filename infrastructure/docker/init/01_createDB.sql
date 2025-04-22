@@ -1,3 +1,14 @@
+-- Создание таблицы "Users" для хранения информации о пользователях
+CREATE TABLE Users (
+    UserID SERIAL PRIMARY KEY,
+    Username VARCHAR(50) UNIQUE NOT NULL,
+    PasswordHash TEXT NOT NULL,
+    Role VARCHAR(20) NOT NULL, -- 'Student', 'Professor', 'Admin'
+    CreatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+ALTER TABLE Students ADD COLUMN UserID INT REFERENCES Users(UserID) ON DELETE SET NULL;
+ALTER TABLE Professors ADD COLUMN UserID INT REFERENCES Users(UserID) ON DELETE SET NULL;
+
 -- Создание таблицы "Students" для хранения информации о студентах
 CREATE TABLE Students (
     StudentID SERIAL PRIMARY KEY,
