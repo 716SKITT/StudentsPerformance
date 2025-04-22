@@ -12,7 +12,7 @@ using StudyPerformance.Infrastructure.EF;
 namespace StudyPerformance.Infrastructure.Migrations
 {
     [DbContext(typeof(StudentDbContext))]
-    [Migration("20250422174429_InitialCreate")]
+    [Migration("20250422183225_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />

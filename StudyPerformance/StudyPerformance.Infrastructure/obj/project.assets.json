@@ -950,6 +950,19 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "StudyPerformance.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "StudyPerformance.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/StudyPerformance.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StudyPerformance.Application.dll": {}
+        }
+      },
       "StudyPerformance.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -2920,6 +2933,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "StudyPerformance.Application/1.0.0": {
+      "type": "project",
+      "path": "../StudyPerformance.Application/StudyPerformance.Application.csproj",
+      "msbuildProject": "../StudyPerformance.Application/StudyPerformance.Application.csproj"
+    },
     "StudyPerformance.Domain/1.0.0": {
       "type": "project",
       "path": "../StudyPerformance.Domain/StudyPerformance.Domain.csproj",
@@ -2932,6 +2950,7 @@
       "Microsoft.EntityFrameworkCore >= 9.0.4",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.4",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 9.0.4",
+      "StudyPerformance.Application >= 1.0.0",
       "StudyPerformance.Domain >= 1.0.0"
     ]
   },
@@ -2967,6 +2986,9 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
+            "C:\\StudentsPerformance\\StudyPerformance\\StudyPerformance.Application\\StudyPerformance.Application.csproj": {
+              "projectPath": "C:\\StudentsPerformance\\StudyPerformance\\StudyPerformance.Application\\StudyPerformance.Application.csproj"
+            },
             "C:\\StudentsPerformance\\StudyPerformance\\StudyPerformance.Domain\\StudyPerformance.Domain.csproj": {
               "projectPath": "C:\\StudentsPerformance\\StudyPerformance\\StudyPerformance.Domain\\StudyPerformance.Domain.csproj"
             }

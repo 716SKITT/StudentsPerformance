@@ -713,6 +713,19 @@
           "build/net6.0/xunit.runner.visualstudio.props": {}
         }
       },
+      "StudyPerformance.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "StudyPerformance.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/StudyPerformance.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StudyPerformance.Application.dll": {}
+        }
+      },
       "StudyPerformance.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -730,6 +743,7 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "Microsoft.EntityFrameworkCore": "9.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
+          "StudyPerformance.Application": "1.0.0",
           "StudyPerformance.Domain": "1.0.0"
         },
         "compile": {
@@ -1767,6 +1781,11 @@
         "xunit.runner.visualstudio.2.8.2.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "StudyPerformance.Application/1.0.0": {
+      "type": "project",
+      "path": "../StudyPerformance.Application/StudyPerformance.Application.csproj",
+      "msbuildProject": "../StudyPerformance.Application/StudyPerformance.Application.csproj"
     },
     "StudyPerformance.Domain/1.0.0": {
       "type": "project",

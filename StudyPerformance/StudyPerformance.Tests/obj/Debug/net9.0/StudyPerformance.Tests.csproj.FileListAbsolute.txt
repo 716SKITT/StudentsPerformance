@@ -119,3 +119,5 @@ C:\StudentsPerformance\StudyPerformance\StudyPerformance.Tests\obj\Debug\net9.0\
 C:\StudentsPerformance\StudyPerformance\StudyPerformance.Tests\obj\Debug\net9.0\StudyPerformance.Tests.pdb
 C:\StudentsPerformance\StudyPerformance\StudyPerformance.Tests\obj\Debug\net9.0\StudyPerformance.Tests.genruntimeconfig.cache
 C:\StudentsPerformance\StudyPerformance\StudyPerformance.Tests\obj\Debug\net9.0\ref\StudyPerformance.Tests.dll
+C:\StudentsPerformance\StudyPerformance\StudyPerformance.Tests\bin\Debug\net9.0\StudyPerformance.Application.dll
+C:\StudentsPerformance\StudyPerformance\StudyPerformance.Tests\bin\Debug\net9.0\StudyPerformance.Application.pdb

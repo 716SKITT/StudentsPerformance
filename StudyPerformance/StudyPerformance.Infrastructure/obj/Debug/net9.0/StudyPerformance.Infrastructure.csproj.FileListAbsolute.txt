@@ -16,3 +16,5 @@ C:\StudentsPerformance\StudyPerformance\StudyPerformance.Infrastructure\obj\Debu
 C:\StudentsPerformance\StudyPerformance\StudyPerformance.Infrastructure\obj\Debug\net9.0\StudyPerformance.Infrastructure.pdb
 C:\StudentsPerformance\StudyPerformance\StudyPerformance.Infrastructure\obj\Debug\net9.0\StudyPerformance.Infrastructure.genruntimeconfig.cache
 C:\StudentsPerformance\StudyPerformance\StudyPerformance.Infrastructure\obj\Debug\net9.0\ref\StudyPerformance.Infrastructure.dll
+C:\StudentsPerformance\StudyPerformance\StudyPerformance.Infrastructure\bin\Debug\net9.0\StudyPerformance.Application.dll
+C:\StudentsPerformance\StudyPerformance\StudyPerformance.Infrastructure\bin\Debug\net9.0\StudyPerformance.Application.pdb
