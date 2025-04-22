@@ -13,6 +13,7 @@ public class Student
     public DateOnly EnrollmentDate { get; private set; }
 
     private readonly List<Enrollment> _enrollments = new();
+    public ICollection<AcademicRecord> AcademicRecords { get; private set; } = new List<AcademicRecord>();
     public IReadOnlyCollection<Enrollment> Enrollments => _enrollments;
 
     private Student() { }

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "StudyPerformance.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/StudyPerformance.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StudyPerformance.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "StudyPerformance.Domain/1.0.0": {
+      "type": "project",
+      "path": "../StudyPerformance.Domain/StudyPerformance.Domain.csproj",
+      "msbuildProject": "../StudyPerformance.Domain/StudyPerformance.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "StudyPerformance.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\egorp\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\StudentsPerformance\\StudyPerformance\\StudyPerformance.Domain\\StudyPerformance.Domain.csproj": {
+              "projectPath": "C:\\StudentsPerformance\\StudyPerformance\\StudyPerformance.Domain\\StudyPerformance.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
